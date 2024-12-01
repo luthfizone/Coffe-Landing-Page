@@ -3,6 +3,8 @@
 :root {
   --main-color: #deab5f;
   --primary-color: #312e2e;
+  --font: "Playfair Display", serif;
+  --white-color: #fff;
 }
 
 /* Utility Styles */
@@ -29,14 +31,14 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #fff;
+  color: var(--white-color);
   font-family: sans-serif;
   padding-top: 15px;
 }
 
 h1 .logo {
   text-decoration: none;
-  color: #fff;
+  color: var(--white-color);
 }
 
 li {
@@ -45,7 +47,7 @@ li {
 }
 
 li a {
-  color: #fff;
+  color: var(--white-color);
   text-decoration: none;
   margin-left: 40px;
   padding-bottom: 10px;
@@ -61,11 +63,11 @@ header {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  font-family: "Playfair Display", serif;
+  font-family: var(--font);
   font-weight: normal;
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: var(--white-color);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -120,22 +122,22 @@ header {
 }
 
 .title {
-  font-family: "Playfair Display", serif;
+  font-family: var(--font);
   font-size: 4rem;
-  color: #fff;
+  color: var(--white-color);
   transform: translateX(-100px);
 }
 
 .line {
   width: 100px;
   height: 2px;
-  background: #fff;
+  background: var(--white-color);
   transform: translateX(-120px);
 }
 
 .section-content p {
   max-width: 500px;
-  color: #fff;
+  color: var(--white-color);
   font-family: sans-serif;
   line-height: 20px;
   margin: 20px 0;
