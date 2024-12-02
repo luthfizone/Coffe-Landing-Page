@@ -238,3 +238,39 @@ header {
   margin: 20px 0;
   font-family: sans-serif;
 }
+
+/* Footer */
+footer {
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  font-family: sans-serif;
+}
+
+footer .container {
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+footer .heading-info {
+  margin-bottom: 20px;
+}
+
+footer p {
+  line-height: 25px;
+}
+
+footer span {
+  color: var(--main-color);
+}
+
+footer .copyright {
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
