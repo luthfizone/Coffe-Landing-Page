@@ -142,3 +142,30 @@ header {
   line-height: 20px;
   margin: 20px 0;
 }
+
+/* Section: Coffee */
+.coffee-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.title-two {
+  font-size: 3rem;
+  color: var(--white-color);
+  font-family: var(--font);
+}
+
+.content-section p {
+  max-width: 500px;
+  margin: 20px 0;
+  font-family: sans-serif;
+  color: var(--white-color);
+}
+
+.img-2 {
+  width: 400px;
+  height: 400px;
+}
