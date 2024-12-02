@@ -169,3 +169,72 @@ header {
   width: 400px;
   height: 400px;
 }
+
+/* Section: Product */
+.products {
+  margin-top: 5rem;
+}
+
+.title-three {
+  font-size: 4rem;
+  margin: 10rem 0 10rem 10rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid var(--main-color);
+  padding: 0 20px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -60px;
+}
+
+.img-one {
+  background: url(/Images/1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-two {
+  background: url(/Images/2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-three {
+  background: url(/Images/3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-title {
+  color: var(--white-color);
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.card .items p {
+  color: var(--white-color);
+  margin: 20px 0;
+  font-family: sans-serif;
+}
